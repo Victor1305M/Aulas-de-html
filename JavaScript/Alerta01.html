@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Título</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            alert('Bem Vindo!');
+        </script>
+
+        <script>
+            var curso='javascript';
+            if(curso==='javascript'){
+                alert('Oba! Então inicie agora mesmo seu estudos em JavaScript.');
+            } else{
+                alert('Ah! Parece que JavaScript não é sua linguagem...');
+            }
+        </script>
+
+        <script>
+          function mostrarResult()
+          {
+            var num1 = 10;
+            var num2 = 15;
+            var num3 = 10;
+            var result = num1 + num2 + num3;
+            document.getElementById('result').innerHTML = result;
+          }
+        </script>
+
+        <p>10 + 15 + 10= <strong id= "result"></strong></p>
+  
+
+        <input type="button" onclick="mostrarResult()" value="Cacular" id="botao"/>
+</body>
+   
+</html>
+
+    

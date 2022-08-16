@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+         <!--Cabeçalho-->
+    <head>
+    
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        
+        <title>Exercício de formulário com caixas especificas</title>
+    </head>
+        <!--corpo-->
+<body>
+        <!--Formulario representa uma seção de um documento que contém controles interativos que permitem ao usuário submeter informação a um determinado servidor web-->
+    <form action="parametros.php" method="post">
+        <!--Representa uma legenda para um item em uma interface de usuário-->
+        <label for="keyword_id"> Busca: </label>
+        <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+                id="keywords_id"
+                type="search"
+                name="keywords"
+                placeholder="keywords">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+        <!--Representa uma legenda para um item em uma interface de usuário-->
+        <label for="idade_id">Idade</label>
+        <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="idade_id"
+            type="number"
+            name="idade"
+            min="18"
+            max="60">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+        <!--Representa uma legenda para um item em uma interface de usuário-->
+        <label for="curtiu_id">Curtiu:</label>
+        <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="curtiu_id"
+            type="range"
+            name="curtiu"
+            min="0"
+            max="10">
+    
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+        <!--Representa uma legenda para um item em uma interface de usuário-->
+        <label for="email_id"> Email:</labe>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="email_id"
+            type="email"
+            name="email"
+            placeholder="Seu email">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+            <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="telefone_id">Telefone:</label>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input
+                id="telefone_id"
+                type="tel"
+                name="telefone"
+                placeholder="Seu telefone">
+    
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+            <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="site_id">Site</label>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input
+                id="site_id"
+                type="url"
+                name="site"
+                placeholder="Seu site">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="nascimento_id">Nascimento:</label>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input
+                id="nascimento_id"
+                type="date"
+                name="nascimento">
+            
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="festa_aniversario_id">Festa de Aniversátio:</label>
+                <input 
+                id="festa_aniversario_id"
+                type="datetime-local"
+                name="festa-aniversario">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="proximo_carnaval_mes_id">Mês do próximeo Carnaval</label>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input
+                id="proximo_carnaval_mes_id"
+                type="month"
+                name="proximo_carnaval_mes">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="semana_rock_in_rio_id">Semana do Rock in Rio</label>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input 
+                id="samana_rock_in_rio_id"
+                type="week"
+                name="semana_rock_in_rio">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="horario_de_entrada_id">Horário de entrada</label>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+                <input
+                id="horario_de_entrada_id"
+                type="time"
+                name="horario_de_entrada">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="senha_id">Senha:</label>
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input
+            id="senha_id"
+            type="password"
+            name="senha"
+            placeholder="Sua senha">
+
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+             <!--Representa uma legenda para um item em uma interface de usuário-->
+            <label for="mensagem_id">Mensagem</label>
+            <!--Experimente representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuároi informar um texto extenso em formato livre, como um comentário ou formulário de retorno-->
+            <textarea
+            id="mensagem_id"
+            name="mensagem"
+            rows="5"
+            cols="50"
+            maxlength="150"></textarea>
+        
+        <!--Produz uma quebra de linha em um texto-->
+    <br>
+
+            <!--Usado para criar controles interativos para forulários baseados na web para receber dados do usuário-->
+            <input type="submit" value="Enviar">
+        </form>
+</body>
+</html>
