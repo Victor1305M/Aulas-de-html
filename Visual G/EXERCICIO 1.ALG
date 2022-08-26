@@ -1,0 +1,30 @@
+Algoritmo "Exercicio 1"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/08/2022
+Var
+// Seção de Declarações das variáveis 
+   nome:caractere
+   ano_at, ano_nc, idade: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("Digite seu nome")
+leia(nome)
+
+escreval("Digiter o ano de seu nascimento")
+leia(ano_nc)
+
+escreval("Digite o ano atual")
+leia(ano_at)
+
+  idade <- ano_at - ano_nc
+  
+  escreval ("Seu nome e ", nome)
+  
+  escreval ("Sua idade e ", idade)
+  
+Fimalgoritmo
