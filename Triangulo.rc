@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+float A, B, C;
+
+scanf("%f",&A);
+scanf("%f",&B);
+scanf("%f",&C);
+
+if (C > A + B || A > B + C || B > A + C ){
+printf("NAO FORMAM UM TRIANGULO\n");
+}
+
+else if ( A != B && A != C && B != C ){
+printf("TRIANGULO ESCALENO\n");
+}
+
+else if ( A == B && A == C){
+printf("TRIANGULO EQUILATERO\n");
+}
+
+else if (A == B || A == C || B == C){
+printf("TRIANGULO ISOSCELES\n");
+}
+
+return 0;
+}
